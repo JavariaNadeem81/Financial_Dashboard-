@@ -1,0 +1,15 @@
+# Ignore all files by default
+*
+
+# But do not ignore these important files and folders
+!*.ipynb
+!*.xlsx
+!README.md
+!.gitignore
+
+# Ignore common unwanted files/folders
+__pycache__/
+.vscode/
+*.log
+.env
+.venv/
